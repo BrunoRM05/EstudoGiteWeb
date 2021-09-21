@@ -16,6 +16,20 @@ main {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.507) ;
 }
 
+#container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: header;
+    
+  }
+  
+  #container > header {
+    background-color: #8ca0ff;
+    width: 50px;
+    height: 50px;
+    grid-template-rows: 0%;
+  }
+
 h1 {
     font-size: 2em;
     color: #000;
@@ -34,7 +48,7 @@ img.logo {
     float: left;
 }
 
-li.menu{
+ul.menu{
     float: right;
     margin: 0px;
     padding: 10px;
