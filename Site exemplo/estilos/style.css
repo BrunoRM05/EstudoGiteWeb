@@ -15,3 +15,28 @@ main {
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.507) ;
 }
+
+h1 {
+    font-size: 1.5em;
+    color: #000;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #000;
+}
+
+img.lado {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkcyan;
+}
